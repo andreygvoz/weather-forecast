@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	background-color: #3399CC;
+	border:10px solid;
+	border-color:#2B81AC;
+}
+main {
+height:100vh;
+}
+header {
+	margin-left:360px;
+	color: #FFFFFE;	
+}
+ul {
+	list-style-type: none;
+	font-size:0;
+	border: 2px solid#fff;
+	padding:0;
+	max-width: 600px;
+	margin: 0 auto;
+}
+li {
+	display:inline-block;
+	width: 25%;
+	height: 120px;
+	background-color: #669999;
+	font-size: 15px;
+	border: 2px solid#fff;
+	color: #FFFFFE;
+	text-align: center;
+	}
+.big {
+width: 50%;
+}
+.sbig {
+width: 100%;
+}
+h2 {
+margin-left:357px;
+color: #FFFFFE;
+font-size:15px;
+}
+li:nth-child(1) {
+ background-color: #3399CC ;
+}
+li:nth-child(2) {
+ background-color: #33CCCC ;
+}
+li:nth-child(3) {
+ background-color: #996699 ;
+}
+li:nth-child(4) {
+ background-color: #C24747 ;
+}
+li:nth-child(5) {
+ background-color: #E2674A ;
+}
+li:nth-child(6) {
+ background-color: #FFCC66 ;
+}
+li:nth-child(7) {
+ background-color: #99CC99 ;
+}
+li:nth-child(8) {
+ background-color: #669999 ;
+}
+li:nth-child(9) {
+ background-color: #CC6699 ;
+}
+li:nth-child(10) {
+ background-color: #339966 ;
+}
+li:nth-child(11) {
+ background-color: #666699 ;
+}
+ul:hover li:not(:hover){
+opacity:0.5;
+transition: all 0.3s ease-in;
+}
+.pbig {
+hight:50%;
+text-align: center;
+font-size:17px;
+}
+.psmall {
+hight:50%;
+text-align: center;
+font-size:16px;
+}
